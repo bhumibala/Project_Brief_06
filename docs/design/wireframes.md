@@ -58,10 +58,10 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
 
 ```text
  ┌────────────────────────────────────────────────────────┐
- │ EVENT MANAGEMENT SYSTEM       Home Events Login Register│
+ │ EVENT MANAGEMENT SYSTEM      Home Events Login Register│
  ├────────────────────────────────────────────────────────┤
  │                                                        │
- │             PLAN • ORGANIZE • MANAGE                  │
+ │             PLAN • ORGANIZE • MANAGE                   │
  │                                                        │
  │       Manage your events easily in one place.          │
  │                                                        │
@@ -70,11 +70,11 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
  ├────────────────────────────────────────────────────────┤
  │                    Featured Events                     │
  │                                                        │
- │   ┌────────────┐  ┌────────────┐  ┌────────────┐      │
- │   │   Event 1  │  │   Event 2  │  │   Event 3  │      │
- │   │            │  │            │  │            │      │
- │   │  [Details] │  │  [Details] │  │  [Details] │      │
- │   └────────────┘  └────────────┘  └────────────┘      │
+ │   ┌────────────┐  ┌────────────┐  ┌────────────┐       │
+ │   │   Event 1  │  │   Event 2  │  │   Event 3  │       │
+ │   │            │  │            │  │            │       │
+ │   │  [Details] │  │  [Details] │  │  [Details] │       │
+ │   └────────────┘  └────────────┘  └────────────┘       │
  │                                                        │
  └────────────────────────────────────────────────────────┘
 ```
@@ -88,18 +88,18 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
  │ Events                              [Profile] [Logout] │
  ├────────────────────────────────────────────────────────┤
  │                                                        │
- │   Browse Events                                       │
+ │   Browse Events                                        │
  │                                                        │
  │   Search [________________________] [Search]           │
  │                                                        │
- │   Category [________]   Date [________]               │
+ │   Category [________]   Date [________]                │
  │                                                        │
  ├────────────────────────────────────────────────────────┤
  │ Event Name     Category      Date       Capacity       │
  │                                                        │
- │ Tech Seminar   Seminar       20/06/26   100   [View]  │
- │ Workshop       Workshop      25/06/26    50   [View]  │
- │ College Fest   Cultural      30/06/26   500   [View]  │
+ │ Tech Seminar   Seminar       20/06/26   100   [View]   │
+ │ Workshop       Workshop      25/06/26    50   [View]   │
+ │ College Fest   Cultural      30/06/26   500   [View]   │
  │                                                        │
  └────────────────────────────────────────────────────────┘
 ```
@@ -113,13 +113,13 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
  │ Event Details                              [Back]      │
  ├────────────────────────────────────────────────────────┤
  │                                                        │
- │              EVENT NAME                               │
+ │              EVENT NAME                                │
  │                                                        │
  │   Category     : Seminar                               │
- │   Date         : 20/06/2026                           │
- │   Time         : 10:00 AM                             │
- │   Venue        : Main Auditorium                      │
- │   Capacity     : 100 Participants                     │
+ │   Date         : 20/06/2026                            │
+ │   Time         : 10:00 AM                              │
+ │   Venue        : Main Auditorium                       │
+ │   Capacity     : 100 Participants                      │
  │                                                        │
  │   Description:                                         │
  │   _________________________________________________    │
@@ -139,17 +139,17 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
 
 ```text
  ┌───────────────┬────────────────────────────────────────┐
- │   Sidebar     │         Participant Dashboard           │
+ │   Sidebar     │         Participant Dashboard          │
  ├───────────────┤────────────────────────────────────────┤
  │ Dashboard     │ Welcome, [Participant]                 │
  │ Browse Events │                                        │
- │ My Bookings   │ ┌──────────┐ ┌──────────┐ ┌─────────┐│
- │ My Tickets    │ │ Bookings │ │ Tickets  │ │ Events  ││
- │ Payments      │ │    05    │ │    03    │ │   08    ││
- │ Notifications │ └──────────┘ └──────────┘ └─────────┘│
+ │ My Bookings   │ ┌──────────┐ ┌──────────┐ ┌─────────┐  │
+ │ My Tickets    │ │ Bookings │ │ Tickets  │ │ Events  │  │
+ │ Payments      │ │    05    │ │    03    │ │   08    │  │
+ │ Notifications │ └──────────┘ └──────────┘ └─────────┘  │
  │ Profile       │                                        │
- │ Logout        │ Recent Bookings                       │
- │               │ ───────────────────────────────────── │
+ │ Logout        │ Recent Bookings                        │
+ │               │ ─────────────────────────────────────  │
  │               │ Event Name     Date       Status       │
  │               │ Seminar        20/06      Confirmed    │
  │               │ Workshop       25/06      Pending      │
@@ -162,20 +162,20 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
 
 ```text
  ┌────────────────┬───────────────────────────────────────┐
- │    Sidebar     │          Organizer Dashboard           │
+ │    Sidebar     │          Organizer Dashboard          │
  ├────────────────┤───────────────────────────────────────┤
  │ Dashboard      │ Welcome, [Organizer]                  │
  │ My Events      │                                       │
- │ Create Event   │ ┌──────────┐ ┌──────────┐ ┌────────┐│
- │ Registrations  │ │  Events  │ │Bookings  │ │Attend. ││
- │ Schedules      │ │    08    │ │   120    │ │   95   ││
- │ Attendance     │ └──────────┘ └──────────┘ └────────┘│
+ │ Create Event   │ ┌──────────┐ ┌──────────┐ ┌────────┐  │
+ │ Registrations  │ │  Events  │ │Bookings  │ │Attend. │  │
+ │ Schedules      │ │    08    │ │   120    │ │   95   │  │
+ │ Attendance     │ └──────────┘ └──────────┘ └────────┘  │
  │ Reports        │                                       │
- │ Profile        │ My Events                            │
+ │ Profile        │ My Events                             │
  │ Logout         │ ───────────────────────────────────── │
  │                │ Event Name       Date       Status    │
- │                │ Tech Seminar     20/06      Upcoming │
- │                │ Workshop         25/06      Upcoming │
+ │                │ Tech Seminar     20/06      Upcoming  │
+ │                │ Workshop         25/06      Upcoming  │
  └────────────────┴───────────────────────────────────────┘
 ```
 
@@ -217,11 +217,11 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
 
 ```text
  ┌────────────────────────────────────────┐
- │          Event Registration             │
+ │          Event Registration            │
  ├────────────────────────────────────────┤
  │                                        │
  │ Event: Tech Seminar                    │
- │ Date : 20/06/2026                     │
+ │ Date : 20/06/2026                      │
  │                                        │
  │ Participant Name                       │
  │ [____________________________]         │
@@ -254,8 +254,8 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
  │                                                        │
  │ Participant   Event          Date       Status Actions │
  │                                                        │
- │ John Doe      Tech Seminar   20/06      Pending [View]│
- │ Jane Roy      Workshop       25/06      Approved[View]│
+ │ John Doe      Tech Seminar   20/06      Pending [View] │
+ │ Jane Roy      Workshop       25/06      Approved[View] │
  │ Rahul Shah    College Fest   30/06      Cancelled[View]│
  │                                                        │
  └────────────────────────────────────────────────────────┘
@@ -272,10 +272,10 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
  │                                                        │
  │ Time       Session              Speaker       Actions  │
  │                                                        │
- │ 10:00 AM   Opening Ceremony     Organizer     [Edit]  │
- │ 11:00 AM   Technical Session    Speaker 1    [Edit]  │
- │ 01:00 PM   Lunch                -             [Edit]  │
- │ 02:00 PM   Workshop             Speaker 2    [Edit]  │
+ │ 10:00 AM   Opening Ceremony     Organizer     [Edit]   │
+ │ 11:00 AM   Technical Session    Speaker 1    [Edit]    │
+ │ 01:00 PM   Lunch                -             [Edit]   │
+ │ 02:00 PM   Workshop             Speaker 2    [Edit]    │
  │                                                        │
  └────────────────────────────────────────────────────────┘
 ```
@@ -286,7 +286,7 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
 
 ```text
  ┌─────────────────────────────────────┐
- │             EVENT TICKET             │
+ │             EVENT TICKET            │
  ├─────────────────────────────────────┤
  │                                     │
  │ Event: Tech Seminar                 │
@@ -302,7 +302,7 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
  │                                     │
  │          [ Ticket Code ]            │
  │                                     │
- │          [ Download Ticket ]       │
+ │          [ Download Ticket ]        │
  └─────────────────────────────────────┘
 ```
 
@@ -321,14 +321,13 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
  │                                                        │
  │ Participant     Ticket ID     Check-in      Action     │
  │                                                        │
- │ John Doe        TKT-001       Present       [Update]  │
- │ Jane Roy        TKT-002       Present       [Update]  │
- │ Rahul Shah      TKT-003       Absent        [Check In]│
+ │ John Doe        TKT-001       Present       [Update]   │
+ │ Jane Roy        TKT-002       Present       [Update]   │
+ │ Rahul Shah      TKT-003       Absent        [Check In] │
  │                                                        │
  ├────────────────────────────────────────────────────────┤
- │ Total Participants: 100                               │
- │ Present: 85                                           │
- │ Absent: 15                                            │
+ │ Total Participants: 100                                │
+ │ Present: 85                                            │
  └────────────────────────────────────────────────────────┘
 ```
 
@@ -343,17 +342,17 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
  │                                                        │
  │ Select Event [____________________]                    │
  │                                                        │
- │ ┌─────────────┐ ┌─────────────┐ ┌─────────────────┐  │
- │ │ Registrations│ │ Attendance │ │ Available Seats │  │
- │ │     100      │ │     85     │ │       15        │  │
- │ └─────────────┘ └─────────────┘ └─────────────────┘  │
+ │ ┌─────────────┐ ┌─────────────┐ ┌─────────────────┐    │
+ │ │ Registrations│ │ Attendance │ │ Available Seats │    │
+ │ │     100      │ │     85     │ │       15        │    │
+ │ └─────────────┘ └─────────────┘ └─────────────────┘    │
  │                                                        │
- │ Attendance Report                                     │
+ │ Attendance Report                                      │
  │ ─────────────────────────────────────────────────────  │
- │ Present       85                                      │
- │ Absent        15                                      │
+ │ Present       85                                       │
+ │ Absent        15                                       │
  │                                                        │
- │ [ View Report ] [ Download Report ]                   │
+ │ [ View Report ] [ Download Report ]                    │
  └────────────────────────────────────────────────────────┘
 ```
 
@@ -389,20 +388,20 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
 
 ```text
  ┌────────────────┬───────────────────────────────────────┐
- │    Sidebar     │          Administrator Dashboard       │
+ │    Sidebar     │          Administrator Dashboard      │
  ├────────────────┤───────────────────────────────────────┤
- │ Dashboard      │ Welcome, [Administrator]             │
+ │ Dashboard      │ Welcome, [Administrator]              │
  │ Users          │                                       │
- │ Events         │ ┌────────┐ ┌────────┐ ┌────────────┐│
- │ Participants   │ │ Users  │ │ Events │ │Registrations││
- │ Registrations  │ │  250   │ │   35   │ │    850     ││
- │ Schedules      │ └────────┘ └────────┘ └────────────┘│
+ │ Events         │ ┌────────┐ ┌────────┐ ┌────────────┐  │
+ │ Participants   │ │ Users  │ │ Events │ │Registration│  │
+ │ Registrations  │ │  250   │ │   35   │ │    850     │  │
+ │ Schedules      │ └────────┘ └────────┘ └────────────┘  │
  │ Attendance     │                                       │
- │ Reports        │ Recent Events                        │
+ │ Reports        │ Recent Events                         │
  │ Profile        │ ───────────────────────────────────── │
  │ Settings       │ Event Name       Date       Status    │
- │ Logout         │ Tech Seminar     20/06      Upcoming │
- │                │ Workshop         25/06      Ongoing  │
+ │ Logout         │ Tech Seminar     20/06      Upcoming  │
+ │                │ Workshop         25/06      Ongoing   │
  └────────────────┴───────────────────────────────────────┘
 ```
 
