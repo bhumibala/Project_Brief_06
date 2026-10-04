@@ -126,9 +126,9 @@ Low-fidelity layout sketches for the main pages of the Event Management System. 
  │   _________________________________________________    │
  │                                                        │
  │   Ticket Type [_____________]                          │
- │   Quantity    [____]                                   │
+ │   Quantity    [____         ]                          │
  │                                                        │
- │              [ Register Now ]                          │
+ │               [ Register Now ]                         │
  │                                                        │
  └────────────────────────────────────────────────────────┘
 ```

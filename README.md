@@ -1,40 +1,47 @@
-<<<<<<< Updated upstream
-# Even Project Management System
-=======
 # Event Management System
->>>>>>> Stashed changes
 
-## Project Title
+## Project Brief
+Project Brief 06 - Event Management System
 
-**Event Management System**
+## Sprint 5
+Building the Frontend Foundation with React
 
-<<<<<<< Updated upstream
-## Team Members
-=======
-## Team Members:
->>>>>>> Stashed changes
-* Shah Newaj Ashan Mazumder
-* Ayanda Nukukhaya Lukhale
-* Bhumi Bala Daimary 
-* Esha Narzary
-* Akash Bora
-<<<<<<< Updated upstream
-  
-## Project Domain
-**Event Planning and Management**
-Brief Project Description:The Event Management System is developed using the MERN Stack. It allows users to create and manage events, register participants, maintain event schedules, generate digital tickets, and track attendance. The system provides an easy and organized way to manage different types of events.
-=======
+## Technology Stack
+- React.js
+- Node.js
+- Express.js
+- MongoDB
 
+## Frontend
+The frontend is developed using React.js with Vite.
 
-## Project Domain
+## Frontend Structure
+- Assets
+- Components
+- Layouts
+- Pages
+- Routes
+- Services
+- Hooks
+- Utils
 
-**Event Planning and Management**
+## How to Run Frontend
 
-## Brief Project Description
+cd client
+npm install
+npm run dev
 
-The **Event Management System** is developed using the MERN Stack. It allows users to create and manage events, register participants, maintain event schedules, generate digital tickets, and track attendance. The system provides an easy and organized way to manage different types of events.
+## Main Pages
+- Home
+- Login
+- Dashboard
+- Profile
+- Not Found
 
-
-
-
->>>>>>> Stashed changes
+## Reusable Components
+- Navbar
+- Footer
+- Sidebar
+- Button
+- Card
+- Loader
