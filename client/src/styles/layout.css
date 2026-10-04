@@ -1,0 +1,162 @@
+.app-shell {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-header {
+  flex: 0 0 auto;
+  background-color: #172554;
+  color: var(--white-color);
+}
+
+.navbar {
+  display: flex;
+  width: min(100% - 40px, 1200px);
+  min-height: 72px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.site-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brand-mark {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 10px;
+  background-color: #60a5fa;
+  color: #172554;
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-links a {
+  padding: 9px 12px;
+  border-radius: 6px;
+  color: #dbeafe;
+  text-decoration: none;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  background-color: rgb(255 255 255 / 13%);
+  color: var(--white-color);
+}
+
+.nav-links .login-link {
+  border: 1px solid rgb(255 255 255 / 65%);
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.main-content {
+  width: min(100%, 1240px);
+  margin: 0 auto;
+  flex: 1 0 auto;
+}
+
+.container {
+  width: min(100% - 32px, 1200px);
+  margin: 0 auto;
+  padding: 56px 0 64px;
+}
+
+.page-title {
+  display: flex;
+  margin-bottom: 32px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.page-title h1 {
+  margin: 0 0 10px;
+  color: #172554;
+  font-size: clamp(2rem, 5vw, 3rem);
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
+}
+
+.page-title p {
+  max-width: 700px;
+  margin: 0;
+  color: #526079;
+  line-height: 1.6;
+}
+
+.page-title-actions,
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.home-actions {
+  margin: -8px 0 36px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 20px;
+}
+
+.content-card {
+  max-width: 680px;
+}
+
+.not-found-page .content-card {
+  max-width: 420px;
+}
+
+.site-footer {
+  flex: 0 0 auto;
+  background-color: #172554;
+  color: #dbeafe;
+}
+
+.footer-inner {
+  display: flex;
+  width: min(100% - 40px, 1200px);
+  min-height: 104px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footer-brand {
+  margin: 0 0 4px;
+  color: var(--white-color);
+  font-weight: 700;
+}
+
+.footer-tagline,
+.footer-copyright {
+  margin: 0;
+  color: #bfdbfe;
+  font-size: 0.9rem;
+}
