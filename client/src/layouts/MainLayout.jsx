@@ -1,18 +1,18 @@
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
+import { Outlet } from "react-router-dom";
 
 function MainLayout() {
   return (
-    <>
+    <div className="app-shell">
       <Navbar />
 
       <main className="main-content">
-        <h1>Event Management System</h1>
-        <p>Welcome to the application.</p>
+        <Outlet />
       </main>
 
       <Footer />
-    </>
+    </div>
   );
 }
 
