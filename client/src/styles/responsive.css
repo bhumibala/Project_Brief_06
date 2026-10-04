@@ -90,6 +90,29 @@
     padding: 20px;
   }
 
+  .event-form-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .event-form-field--full {
+    grid-column: auto;
+  }
+
+  .event-form-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .event-form-actions .button {
+    width: 100%;
+  }
+
+  .event-summary div {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+
   .footer-inner {
     width: min(100% - 32px, 1200px);
     min-height: 0;

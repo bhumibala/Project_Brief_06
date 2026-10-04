@@ -4,6 +4,7 @@ import Button from "../../components/ui/Button";
 import Card from "../../components/ui/Card";
 import PageTitle from "../../components/ui/PageTitle";
 import WelcomeMessage from "../../components/ui/WelcomeMessage";
+import EventCreationForm from "./EventCreationForm";
 
 function Dashboard() {
   const navigate = useNavigate();
@@ -57,6 +58,7 @@ function Dashboard() {
           </p>
         )}
       </Card>
+      <EventCreationForm />
       <section aria-label="Dashboard overview" className="card-grid">
         <Card
           title="Events"
