@@ -69,3 +69,52 @@
 .card .button {
   margin-top: 20px;
 }
+
+.dashboard-interaction-card {
+  margin-bottom: 28px;
+}
+
+.dashboard-name-label {
+  display: block;
+  margin-top: 20px;
+  color: #172554;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.dashboard-name-input {
+  display: block;
+  width: min(100%, 420px);
+  min-height: 44px;
+  margin-top: 8px;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background-color: var(--white-color);
+  color: var(--text-color);
+}
+
+.dashboard-name-input:focus-visible {
+  outline: 3px solid #93c5fd;
+  outline-offset: 2px;
+}
+
+.welcome-message {
+  margin: 16px 0 0;
+  color: #334155;
+  line-height: 1.6;
+}
+
+.dashboard-tip-control {
+  margin-top: 4px;
+}
+
+.dashboard-tip {
+  margin: 16px 0 0;
+  padding: 14px 16px;
+  border-left: 4px solid #60a5fa;
+  border-radius: 4px;
+  background-color: #eff6ff;
+  color: #1e3a8a;
+  line-height: 1.6;
+}
