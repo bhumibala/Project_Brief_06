@@ -3,8 +3,8 @@
 ## Project Brief
 Project Brief 06 - Event Management System
 
-## Sprint 5
-Building the Frontend Foundation with React
+## Sprint 7
+Reusable React UI components and shared application layout
 
 ## Technology Stack
 - React.js
@@ -44,4 +44,7 @@ npm run dev
 - Sidebar
 - Button
 - Card
+- PageTitle
 - Loader
+
+The frontend uses React Router for client-side navigation and shared layouts. Reusable interface components are organized in `client/src/components/ui`, with the Navbar and Footer shared through the main layout.

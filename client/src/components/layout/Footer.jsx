@@ -1,7 +1,17 @@
+const CURRENT_YEAR = new Date().getFullYear();
+
 function Footer() {
   return (
-    <footer className="footer">
-      <p>© 2026 Event Management System</p>
+    <footer className="site-footer">
+      <div className="footer-inner">
+        <div>
+          <p className="footer-brand">Event Management System</p>
+          <p className="footer-tagline">Plan moments that matter.</p>
+        </div>
+        <p className="footer-copyright">
+          © {CURRENT_YEAR} Event Management System
+        </p>
+      </div>
     </footer>
   );
 }
